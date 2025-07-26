@@ -43,5 +43,5 @@ This project helped understand the inner workings of Kafka — brokers, producer
 - Varun Avabratha
 - Anirudh Koti
 - Dhruva Guruprasad
-Note: Topic directories and partition files are dynamically generated when brokers and producers are executed.
+## Note: Topic directories and partition files are dynamically generated when brokers and producers are executed.
 
