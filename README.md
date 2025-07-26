@@ -12,3 +12,36 @@ This project is a simplified, custom implementation of Apache Kafka using raw Py
 
 
 
+## 🧪 How It Works
+
+1. **Start the broker servers**: Run `broker1.py`, `broker2.py`, and `broker3.py` on different terminals.
+2. **Create a topic**: When a producer connects, a new topic directory is initialized with partition tracking.
+3. **Publish messages**: The producer sends data, which is routed to a partition and replicated across brokers.
+4. **Subscribe and consume**: The subscriber receives messages from the offset onward.
+
+## 🛠️ Technologies Used
+
+- Python socket programming
+- Multithreading
+- File I/O for partition persistence
+- Round-robin logic for partition distribution
+
+## 📌 Learning Outcome
+
+This project helped understand the inner workings of Kafka — brokers, producers, consumers, partitions, replication, and offset-based consumption — all without using any external libraries.
+
+## 🚀 Getting Started
+
+1. Clone the repo
+2. Start each broker script in a new terminal
+3. Run `pub.py` to start publishing messages
+4. Run `sub.py` to subscribe and consume
+
+## 🧑‍💻 Contributors
+
+- Ishani Bhat 
+- Varun Avabratha
+- Anirudh Koti
+- Dhruva Guruprasad
+
+
